@@ -1,13 +1,14 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
 
 .navegacion {
-  background: linear-gradient(to top, #001219, #0A9396);
-  font-family: 'Josefin Sans'; }
+  background: linear-gradient(to top, #001219, #0a9396);
+  font-family: "Josefin Sans"; }
 
 .itemsNav:hover {
-  background: linear-gradient(to top, #005F73, #94D2BD);
+  background: linear-gradient(to top, #005f73, #94d2bd);
   border-radius: 5px; }
 
 .navegacionTitulos {
@@ -19,14 +20,14 @@
   font-size: 1.8rem !important; }
 
 .navegacionTitulos:hover {
-  color: #E9D8A6 !important; }
+  color: #e9d8a6 !important; }
 
 .titulos {
   color: #f0efc6;
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
   font-size: 2.5rem;
   padding: 5px;
-  background: radial-gradient(ellipse, #94D2BD, #0A9396);
+  background: radial-gradient(ellipse, #94d2bd, #0a9396);
   text-align: center;
   border-bottom: 10px solid #160133;
   text-shadow: 1px 1px 2px black, 0 0 25px #b4d6e4, 0 0 5px #795d01; }
@@ -41,7 +42,7 @@ h2 {
   color: var(--bs-orange); }
 
 footer {
-  background: linear-gradient(to top, #001219, #0A9396);
+  background: linear-gradient(to top, #001219, #0a9396);
   color: white;
   height: 100%; }
 
@@ -55,10 +56,11 @@ footer {
 
 .cajaUno {
   padding-top: 20px;
-  color: #000e5c;
-  font-family: 'Fredoka One';
+  color: #ff9e00;
+  font-family: "Fredoka One";
   font-size: 1.5rem;
-  text-align: center; }
+  text-align: center;
+  text-shadow: 1px 1px 2px #9e2a2b, 0 0 25px black, 0 0 5px black; }
 
 .cajaUno--marron {
   background-color: #fb8600c5; }
@@ -67,9 +69,9 @@ footer {
   background-color: #3c1cf0d8; }
 
 .botonesSecciones {
-  color: #0099CC;
+  color: #0099cc;
   background: transparent;
-  border: 2px solid #0099CC;
+  border: 2px solid #0099cc;
   border-radius: 6px;
   border: none;
   color: white;
@@ -82,10 +84,10 @@ footer {
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Fredoka One', cursive; }
+  font-family: "Fredoka One", cursive; }
 
 .botonesSecciones:hover {
-  background-color: #001029; }
+  background: linear-gradient(to top, #001219, #0a9396); }
 
 .botonesSecciones--verdes:hover {
   background-color: #25dd25;
@@ -102,7 +104,7 @@ footer {
 .botonesSecciones1 {
   background-color: white;
   color: var(--bs-orange);
-  border: 2px solid #8ECAE6; }
+  border: 2px solid #8ecae6; }
 
 .botonesSecciones1:hover {
   color: white; }
@@ -110,12 +112,12 @@ footer {
 .botonesSecciones1--amarillo {
   background-color: #d8fc0f;
   color: #00abfb;
-  border: 2px solid #8ECAE6; }
+  border: 2px solid #8ecae6; }
 
 .botonesSecciones1--gris {
   background-color: #686868;
   color: #000000;
-  border: 2px solid #8ECAE6; }
+  border: 2px solid #8ecae6; }
 
 .gridServicios {
   display: grid;
@@ -173,6 +175,13 @@ footer {
     justify-items: center;
     grid-template-rows: 80px 300px 300px 300px 80px;
     grid-template-areas: "tituloG" "img1" "img2" "img3" "botonG"; }
+  .gridValoracion {
+    display: grid;
+    grid-template-columns: 3fr;
+    justify-content: center;
+    justify-items: center;
+    grid-template-areas: "formulario" "imgFormulario" "estrellitas";
+    grid-template-rows: 900px 720px 160px; }
   .gridServicios {
     display: grid;
     grid-template-columns: 3fr;
@@ -187,6 +196,13 @@ footer {
     margin-top: 60px;
     object-fit: cover;
     height: 300px; }
+  .gridValoracion {
+    display: inline-block;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    justify-items: center;
+    grid-template-areas: "formulario imgFormulario" "formulario estrellitas";
+    grid-template-rows: 400px 120px; }
   .gridGaleria {
     display: grid;
     grid-template-columns: 3fr;
@@ -208,6 +224,13 @@ footer {
     margin-top: 67px;
     object-fit: cover;
     height: 520px; }
+  .gridValoracion {
+    display: inline-block;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    justify-items: center;
+    grid-template-areas: "formulario imgFormulario" "formulario estrellitas";
+    grid-template-rows: 400px 120px; }
   .gridGaleria {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -226,7 +249,7 @@ footer {
 .seccionFormulario {
   background-image: url(../img/fondo3.jpg);
   background-size: 100vw 100vh;
-  font-family: 'Fredoka One', cursive; }
+  font-family: "Fredoka One", cursive; }
   .seccionFormulario form {
     width: 360px;
     margin: 0;
@@ -241,7 +264,7 @@ footer {
     text-align: center;
     font-size: 30px;
     margin-bottom: 20px;
-    background-color: #33384A; }
+    background-color: #33384a; }
   .seccionFormulario input {
     width: 100%;
     margin-bottom: 20px;
@@ -251,7 +274,7 @@ footer {
     border: none; }
   .seccionFormulario label {
     font-size: 20px;
-    font-family: 'Fredoka One', cursive; }
+    font-family: "Fredoka One", cursive; }
   .seccionFormulario textarea {
     min-height: 100px;
     max-height: 150px;
@@ -259,9 +282,9 @@ footer {
     max-width: 600px; }
 
 #botonFormulario {
-  background-color: #33384A;
+  background-color: #33384a;
   color: #fff;
-  border: 2px solid #8ECAE6;
+  border: 2px solid #8ecae6;
   width: 150px;
   height: 30px;
   margin-bottom: 20px; }
@@ -342,7 +365,7 @@ footer {
   height: 110px; }
 
 .textoInformacion {
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", cursive;
   font-size: 25px;
   text-align: center;
   padding-left: 30px; }
@@ -350,11 +373,6 @@ footer {
 .fotosGaleria {
   width: 300px;
   height: 300px; }
-
-.imgCircular {
-  width: 300px;
-  height: 300px;
-  border-radius: 150px; }
 
 :root {
   --bs-blue: #0d6efd;
@@ -378,9 +396,16 @@ footer {
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)); }
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  ); }
 
 .banner1 {
   background-image: url("../img/banner1.jpg"); }
@@ -395,7 +420,7 @@ footer {
   background-image: url(../img/pantalla11.png);
   background-position: center top;
   background-size: 100%;
-  background-color: #FDFCDC; }
+  background-color: #fdfcdc; }
 
 .gridSeccionGaleria {
   display: grid;
@@ -433,24 +458,194 @@ footer {
   transition: filter 0.3s ease-in;
   transform: scale(1.1); }
 
-.how-section1 {
-  margin-top: -15%;
-  padding: 10%; }
+.imagenesSecvicios {
+  max-width: 900px;
+  max-height: 900px; }
 
-.how-section1 h4 {
-  color: #ffa500;
-  font-weight: bold;
-  font-size: 30px; }
+.titulosServicios {
+  color: #ff9e00;
+  font-size: 1.7rem;
+  font-family: "Josefin Sans"; }
 
-.how-section1 .subheading {
-  color: #3931af;
-  font-size: 20px; }
+.subtitulosServicios {
+  color: #7b2cbf;
+  font-size: 1.5rem;
+  font-family: "Josefin Sans"; }
 
-.how-section1 .row {
-  margin-top: 10%; }
+.parrafoServicios {
+  color: #150029;
+  font-size: 1.3rem;
+  font-family: "Josefin Sans"; }
 
-.how-img {
-  text-align: center; }
+.estrellas {
+  display: inline-block; }
+  .estrellas p {
+    text-align: center; }
+  .estrellas label {
+    font-size: 80px; }
+  .estrellas label {
+    color: #4d8f7b; }
+  .estrellas label:hover,
+  .estrellas label:hover ~ label {
+    color: orange; }
 
-.how-img img {
-  width: 40%; }
+.estrellaInput[type="radio"] {
+  display: none; }
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override; }
+
+.estrellaInput[type="radio"]:checked ~ label {
+  color: orange; }
+
+.formularioValoracion {
+  /* background-image: url(../img/fondo3.jpg); */
+  background-size: 100vw 100vh;
+  font-family: "Fredoka One", cursive;
+  float: inherit; }
+  .formularioValoracion form {
+    width: 360px;
+    margin: 0;
+    background: #4d8f7b;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none; }
+    .formularioValoracion form label {
+      color: #fff; }
+  .formularioValoracion input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 10px; }
+  .formularioValoracion label {
+    font-size: 20px;
+    font-family: "Fredoka One", cursive; }
+  .formularioValoracion textarea {
+    min-height: 100px;
+    max-height: 150px;
+    min-width: 100%;
+    max-width: 600px;
+    border-radius: 10px; }
+
+.formulario {
+  grid-area: formulario; }
+
+.imgFormulario {
+  grid-area: imgFormulario; }
+
+.estrellitas {
+  grid-area: estrellitas; }
+
+.botonValoracion {
+  grid-area: botonValoracion; }
+
+.imagenFormulario {
+  width: 100%;
+  height: 100%; }
+
+@media screen and (max-width: 400px) {
+  .gridValoracion {
+    display: grid;
+    grid-template-columns: 3fr;
+    justify-content: center;
+    justify-items: center;
+    grid-template-areas: "formulario" "imgFormulario" "estrellitas" "botonValoracion";
+    grid-template-rows: 420px 250px 130px 100px; } }
+
+@media screen and (min-width: 401px) and (max-width: 960px) {
+  .gridValoracion {
+    display: grid;
+    grid-template-columns: 3fr;
+    justify-content: center;
+    justify-items: center;
+    grid-template-areas: "formulario" "imgFormulario" "estrellitas" "botonValoracion";
+    grid-template-rows: 600px 250px 100px 100px; } }
+
+@media screen and (min-width: 961px) {
+  .gridValoracion {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    justify-items: center;
+    grid-template-areas: "formulario imgFormulario" "formulario imgFormulario" "estrellitas botonValoracion";
+    grid-template-rows: 300px 100px 120px; } }
+
+.videoInformacion {
+  grid-area: video; }
+
+.imgInformacion {
+  grid-area: imgInformacion; }
+
+.mapsInformacion {
+  grid-area: maps; }
+
+.cardInformacion {
+  grid-area: card; }
+
+@media screen and (max-width: 400px) {
+  .gridInformacion {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+    justify-items: center;
+    grid-template-areas: "imgInformacion imgInformacion" "card card" "video video" "maps maps";
+    grid-template-rows: 1200px 900px 300px 300px; }
+  .imgCircular {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px; }
+  .tamañoVideo {
+    width: 360px;
+    height: 200px; } }
+
+@media screen and (min-width: 401px) and (max-width: 1500px) {
+  .gridInformacion {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+    justify-items: center;
+    grid-template-areas: "imgInformacion card" "maps video";
+    grid-template-rows: 750px 400px; }
+  .imgCircular {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px; }
+  .tamañoVideo {
+    width: 460px;
+    height: 250px; }
+  .titulosServicios {
+    color: #ff9e00;
+    font-size: 1.5rem;
+    font-family: "Josefin Sans"; }
+  .subtitulosServicios {
+    color: #7b2cbf;
+    font-size: 1.2rem;
+    font-family: "Josefin Sans"; } }
+
+@media screen and (min-width: 1501px) {
+  .gridInformacion {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+    justify-items: center;
+    grid-template-areas: "imgInformacion card" "maps video";
+    grid-template-rows: 750px 600px; }
+  .imgCircular {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px; }
+  .tamañoVideo {
+    width: 900px;
+    height: 500px; }
+  .titulosServicios {
+    color: #ff9e00;
+    font-size: 1.7rem;
+    font-family: "Josefin Sans"; }
+  .subtitulosServicios {
+    color: #7b2cbf;
+    font-size: 1.5rem;
+    font-family: "Josefin Sans"; } }

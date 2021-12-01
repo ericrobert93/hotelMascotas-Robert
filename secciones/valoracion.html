@@ -62,7 +62,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link active itemsNav navegacionTitulos" href="valoracion.html">Valoración</a>
+            <a class="nav-link active itemsNav navegacionTitulos" href="modal-valora.html">Valoración</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active itemsNav navegacionTitulos" href="../index.html#contacto">Contacto y reservas</a>
@@ -75,63 +75,46 @@
     </div>
   </nav>
   <main style="margin-top: 70px; padding-bottom: 30px;" class="fondo">
-
-    <div class="row row-cols-1 row-cols-md-2 g-4 ">
-      <div class="col">
-        <div class="card imagenesSecvicios">
-          <img src="../img/servicios1.jpg" class="card-img-top " alt="...">
-          <div class="card-body">
-            <b class="titulosServicios">DIVERSIÓN</b>
-            <p class="subtitulosServicios">Contamos con espacios especiales para la diversion de su mascosta. Patio de
-              paseos, pileta para entrenamiento, plaza y peluqueria.</p>
-            <p class="parrafoServicios">Queremos que su mascota disponga de espacios libres y entretención, mientras
-              usted puede disfrutar de sus vacaciones y descanso, confiado en que nosotras entregaremos todo nuestro
-              amor y cuidado a quien es parte de su familia.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card imagenesSecvicios">
-          <img src="../img/emergencias.jpg" class="card-img-top " alt="...">
-          <div class="card-body">
-            <b class="titulosServicios">EMERGENCIAS</b>
-            <p class="subtitulosServicios">Meric Resort cuenta con guardia las 24 horas los 365 días del año para
-              cualquier emergencia que surga con su mascota.</p>
-            <p class="parrafoServicios">Además realizamos cirugías simples y complejas, trabajamos con medicamentos de
-              calidad y nuestros veterinarios titulados ofrecen el mejor tratamiento para su mascota.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card imagenesSecvicios">
-          <img src="../img/traslados.jpg" class="card-img-top " alt="...">
-          <div class="card-body">
-            <b class="titulosServicios">TRASLADOS</b>
-            <p class="subtitulosServicios">Contamos con servicio de transporte para su mascota, desde su casa hasta
-              hotel y del hotel hasta su casa.</p>
-            <p class="parrafoServicios">Somos especialistas en el traslado de mascotas. Porque tenemos mascotas,
-              conocemos lo que representa en nuestras vidas.
-              Por eso, en cada uno de nuestros viajes, los acompañamos, cuidándolos, mimándolos y por supuesto, estando
-              en contacto con su dueño.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card imagenesSecvicios">
-          <img src="../img/atencionPersonalizada.jpg" class="card-img-top " alt="...">
-          <div class="card-body">
-            <b class="titulosServicios">ATENCIÓN PERSONALIZADA</b>
-            <p class="subtitulosServicios">Para las mascotas con cuidados especiales contamos con personal calificado
-              para el cuidado de las mismas, alimento especial y mucho amor.</p>
-            <p class="parrafoServicios">Su mascota estará en un ambiente controlado, siempre mimado y acompañado. Sus
-              paseos serán inolvidables. Trabajamos con calidad de alimentación de primeras marcas y bajas en calorias
-              si es necesario que su mascota este a dieta.</p>
-          </div>
-        </div>
-      </div>
+    <div>
+      <p class="titulos">APRECIAMOS SU VALORACIÓN</p>
     </div>
-  </main>
+    <div class="gridValoracion">
+      <section class="formularioValoracion formulario" id="contacto">
+        <form>
+          <input type="text" name="nombre" placeholder="Nombre">
+          <input type="text" name="apellido" placeholder="Apellido">
+          <input type="text" name="email" placeholder="Email">
+          <input type="text" name="telefono" placeholder="Teléfono">
+          <textarea name="msj" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+        </form>
+      </section>
+      <section class="imgFormulario">
+        <img src="../img/valoracionImg1.jpg" class="imagenFormulario" alt="">
+      </section>
+      <div class="botonValoracion" style="padding-top: 30px; ">
+        <a href="valoracion.html" style="width: 250px;font-size: 1.5rem;"
+          class="botonesSecciones botonesSecciones1">VALORAR</a>
+      </div>
 
+      <section class="estrellitas">
+        <form class="estrellas">
+          <p class="clasificacion">
+            <input id="radio1" type="radio" class="estrellaInput" name="estrellas" value="5">
+            <label for="radio1">★</label>
+            <input id="radio2" type="radio" class="estrellaInput" name="estrellas" value="4">
+            <label for="radio2">★</label>
+            <input id="radio3" type="radio" class="estrellaInput" name="estrellas" value="3">
+            <label for="radio3">★</label>
+            <input id="radio4" type="radio" class="estrellaInput" name="estrellas" value="2">
+            <label for="radio4">★</label>
+            <input id="radio5" type="radio" class="estrellaInput" name="estrellas" value="1">
+            <label for="radio5">★</label>
+          </p>
+        </form>
+      </section>
+    </div>
+
+  </main>
   <footer class="bg-dark text-center text-white">
     <div class="container p-4">
       <section class="mb-4">
