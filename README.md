@@ -27,7 +27,6 @@ _Verificar que todas las imágenes se vean de manera correcta. Que los links a l
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * [HTML5](https://es.wikipedia.org/wiki/HTML5) - Lenguaje de maquetado
 * [CSS3](https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada) - Lenguaje de estilo
