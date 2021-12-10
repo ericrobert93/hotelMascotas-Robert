@@ -6,6 +6,9 @@
   background: linear-gradient(to top, #001219, #0a9396);
   font-family: "Josefin Sans";
 }
+.menuHamburguesa{
+  background-color: aliceblue !important;
+}
 .itemsNav:hover {
   background: linear-gradient(to top, #005f73, #94d2bd);
   border-radius: 5px;
@@ -713,7 +716,7 @@ $padding-size: 40px;
 .cardInformacion {
   grid-area: card;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .gridInformacion {
     display: grid;
     grid-template-columns: 2fr 2fr;
@@ -735,8 +738,12 @@ $padding-size: 40px;
     width: 360px;
     height: 200px;
   }
+  .ajustesCard{
+    max-width: 370px;
+    padding-left: 10px;
+  }
 }
-@media screen and (min-width: 401px) and (max-width: 1500px) {
+@media screen and (min-width: 601px) and (max-width: 1500px) {
   .gridInformacion {
     display: grid;
     grid-template-columns: 2fr 2fr;
@@ -767,8 +774,21 @@ $padding-size: 40px;
     font-size: 1.2rem;
     font-family: "Josefin Sans";
   }
+  .ajustesCard{
+    max-width: 1270px;
+    padding-left: 10px;
+  }
+  .ajusteTraslado{
+    padding-bottom: 30px;
+  }
+  .ajusteCard{
+    padding-bottom: 90px;
+  }
 }
 @media screen and (min-width: 1501px) {
+  .ajusteCard{
+    padding-bottom: 28px;
+  }
   .gridInformacion {
     display: grid;
     grid-template-columns: 2fr 2fr;
@@ -800,3 +820,4 @@ $padding-size: 40px;
     font-family: "Josefin Sans";
   }
 }
+
